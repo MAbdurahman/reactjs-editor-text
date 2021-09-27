@@ -1,5 +1,11 @@
 .App {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100VW;
   text-align: center;
+
 }
 
 .App-logo {
@@ -16,6 +22,7 @@
 .App-header {
   background-color: #282c34;
   min-height: 10vh;
+  min-width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,7 +40,13 @@
   margin-left: 20%;
   margin-top: 50px;
 }
+.App .textarea {
+  display: block;
+  width: 900px;
+  height: 33%;
+  margin-top: 20px;
 
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
