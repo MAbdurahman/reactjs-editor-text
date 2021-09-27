@@ -1,3 +1,5 @@
+import React from 'react';
+import TextEditor from '../components/TextEditor';
 import logo from './../logo.svg';
 import './App.css';
 
@@ -8,6 +10,9 @@ function App() {
 				<img src={logo} className='App-logo' alt='logo' />
 				<h1>React Text Editor</h1>
 			</header>
+			<div className="editor">
+				<TextEditor />
+			</div>
 		</div>
 	);
 }
